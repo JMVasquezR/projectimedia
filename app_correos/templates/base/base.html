@@ -1,0 +1,42 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>IMedia</title>
+
+    <link href="{% static 'bootstrap/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base.css' %}" rel="stylesheet" type="text/css">
+    {% block css %}
+    {% endblock %}
+
+</head>
+<body class="text-center">
+<!--Navbar-->
+
+{% block nav %}
+{% endblock %}
+
+
+
+{% block content %}
+{% endblock %}
+
+<!--/.Navbar-->
+
+<script src="{% static 'bootstrap/jquery-3.3.1.slim.min.js' %}"></script>
+<script src="{% static 'bootstrap/popper.min.js' %}"></script>
+<script src="{% static 'bootstrap/bootstrap.min.js' %}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+{% block js %}
+{% endblock %}
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #41B4D0
+}
+
+.nav-link {
+    color: #14172E !important;
+    border-color: #41B4D0;
+}
+
+body {
+    background-color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+form label, label {
+    font-size: 12px !important;
+}
+
+button{
+    color: #14172E !important;
+    border-color: #14172E !important;
+}
+
+.btn-nav:active, .btn-nav:hover, .btn-nav:focus, a:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.active{
+    background-color: transparent !important;
+    color: white !important;
+    border-color: white !important;
+}
